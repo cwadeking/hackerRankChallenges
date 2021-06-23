@@ -1,0 +1,7 @@
+C:\Users\charl\Desktop\HackerRankTesting\HackerRankTesting\bin\Debug\HackerRankTesting.exe.config
+C:\Users\charl\Desktop\HackerRankTesting\HackerRankTesting\bin\Debug\HackerRankTesting.exe
+C:\Users\charl\Desktop\HackerRankTesting\HackerRankTesting\bin\Debug\HackerRankTesting.pdb
+C:\Users\charl\Desktop\HackerRankTesting\HackerRankTesting\obj\Debug\HackerRankTesting.csproj.CoreCompileInputs.cache
+C:\Users\charl\Desktop\HackerRankTesting\HackerRankTesting\obj\Debug\HackerRankTesting.exe
+C:\Users\charl\Desktop\HackerRankTesting\HackerRankTesting\obj\Debug\HackerRankTesting.pdb
+C:\Users\charl\Desktop\HackerRankTesting\HackerRankTesting\obj\Debug\HackerRankTesting.csprojAssemblyReference.cache
