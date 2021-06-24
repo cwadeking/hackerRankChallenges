@@ -8,16 +8,16 @@ Note: - 12:00:00AM on a 12-hour clock is 00:00:00 on a 24-hour clock.
 Steps to complete-
 1) Write a function that takes in a string of a formatted time.
 2) Deconstruct (slice?) the string to find out if it's AM or PM
-3) Based on if it's AM or PM, the string will have the first two
-char's replaced.
-4) Deconstruct same string to pull out first two digits, conver to number
+3) Based on if it's AM or PM, and if the first two numbers are less than or 
+more than 12, the string will have the first two characters replaced.
+4) Deconstruct same string to pull out first two digits, convert to number
 and see if larger or smaller than 12.
 */
 
-// let testString = '07:00:00PM';
-// let testString1 = '07:01:00PM';
+let testString = '07:00:00PM';
+let testString1 = '07:01:00PM';
 let testString2 = '04:59:59AM';
-//let testString3 = '07:01:00AM';
+let testString3 = '07:01:00AM';
 
 function convertToMilitaryTime(formattedString){
   let amOrPmIdentifier = formattedString.slice(-2);
@@ -37,11 +37,10 @@ function convertToMilitaryTime(formattedString){
     }
   }
   militaryTime = hourAsNumber + leftOverFormat;
-  console.log(militaryTime);
-  //console.log(hourAsNumber + " " + amOrPmIdentifier);
+  return militaryTime;
 }
 
-//convertToMilitaryTime(testString);
-//convertToMilitaryTime(testString1);
+convertToMilitaryTime(testString);
+convertToMilitaryTime(testString1);
 convertToMilitaryTime(testString2);
-//convertToMilitaryTime(testString3);
+convertToMilitaryTime(testString3);
