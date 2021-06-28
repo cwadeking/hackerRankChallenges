@@ -1,3 +1,5 @@
+//https://www.hackerrank.com/challenges/time-conversion/problem
+
 'use strict';
 /*
 Given a time in -hour AM/PM format, convert it to military (24-hour) time.

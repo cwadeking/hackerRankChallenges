@@ -1,3 +1,5 @@
+//https://www.hackerrank.com/challenges/birthday-cake-candles/problem
+
 'use strict';
 /*
 You are in charge of the cake for a child's birthday. You have decided the cake
