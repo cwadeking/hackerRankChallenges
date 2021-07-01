@@ -1,4 +1,7 @@
+'use strict';
 /*
+https://www.hackerrank.com/challenges/apple-and-orange/problem
+
 Function Description
 
 Complete the countApplesAndOranges function in the editor below. 
