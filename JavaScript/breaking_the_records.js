@@ -42,5 +42,4 @@ function breakingRecords(scores){
   arrayOfBrokenRecords.push(timesHighScoreBroke);
   arrayOfBrokenRecords.push(timesLowScoreBroke);
   return arrayOfBrokenRecords;
-
 }
