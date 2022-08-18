@@ -22,6 +22,9 @@ conditions:
 
 let demoArray = [3, 2, 1, 3];
 
+function birthdayCakeCandles(candles) {
+  return findHighestNumberAndFrequencyOfArray(candles);
+}
 function findHighestNumberAndFrequencyOfArray(arrayOfIntegers){
   let highestNumber = arrayOfIntegers[0];
   if(arrayOfIntegers.length === 0){
